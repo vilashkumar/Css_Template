@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 Transformation</title>
+    <style>
+        section{
+            font-family: "Comic Sans MS", sans-serif;
+            background-color: black;
+            padding: 10px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+
+        }
+        article{
+            border:2px solid black;
+            width: 350px;
+            display: inline-block;
+            background-color: lightgreen;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 0 0 15px black;
+            border-radius: 10px;
+            transition: all 1s;
+
+        }
+        article:hover{
+            cursor: pointer;
+            /*transform: translateY(-10px);*/
+            /*transform:perspective(400px) rotateX(-20deg);*/
+            /*transform: perspective(400px) rotateY(20deg);*/
+            /*transform: rotate(360deg);*/
+            transform: skewX(90deg);
+        }
+    </style>
+</head>
+<body>
+<section>
+<h2>CSS3 Transformations</h2>
+    <article class="t_article">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus deleniti illo optio voluptas? Beatae expedita explicabo iusto minima odit quaerat, quas quod saepe tempora voluptates. Beatae distinctio quos voluptatibus.</p>
+    </article>
+
+    <article class="t_article">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus deleniti illo optio voluptas? Beatae expedita explicabo iusto minima odit quaerat, quas quod saepe tempora voluptates. Beatae distinctio quos voluptatibus.</p>
+    </article>
+
+    <article class="t_article">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus deleniti illo optio voluptas? Beatae expedita explicabo iusto minima odit quaerat, quas quod saepe tempora voluptates. Beatae distinctio quos voluptatibus.</p>
+    </article>
+
+
+</section>
+</body>
+</html>
